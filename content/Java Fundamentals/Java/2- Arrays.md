@@ -5,6 +5,7 @@ date: << [[2026-06-19]] | [[2026-06-21]] >>
 ---
 ## Arrays
 ![[You did ask for the 1st box!.png]]
+### Syntax
 ```java
 // arrayNaming is camelCase
 dataType[] name = {element1, element2, element3}; 
@@ -48,7 +49,7 @@ but now if we want to change their values, **we would have to change each line a
     
     System.out.println("The 4th person's age is " + ages[3]); // My 3rd brother's age is 20
     
-    System.out.println("The 5th person's age is  " + ages[4]); // Throws an error since there's no 5th item of the ages array
+        System.out.println("The 5th person's age is  " + siblingAges[4]); // Throws an error since there's no 5th item of the ages array
 ```
 
 Aha! and we even threw in an error into the code, double win! Now, how do we 🌟 **change the value of a single element of this array/collection?** It's actually the same as *modifying a variable*:

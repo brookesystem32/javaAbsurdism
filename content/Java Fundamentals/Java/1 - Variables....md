@@ -5,6 +5,7 @@ date: << [[2026-06-19]] | [[2026-06-21]] >>
 ---
 # What Is A Variable?
 ![[variables comics.png]]
+### Syntax
 ```java
 🌟 // Variable naming is camelCase
 dataType variableName = data; 
