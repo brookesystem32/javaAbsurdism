@@ -9,7 +9,7 @@
 - [ ] Fix Layout in Website
 - [ ] Make the code examples runnable
 - [ ] OOP Explanation
-- [ ] If Statements
+- [x] If Statements
 - [ ] Comics
 - [ ] Challenges in each module
 - [ ] + More Mini-Code Examples (Specifically when enumerating rules)
