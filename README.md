@@ -11,4 +11,5 @@
 - [ ] OOP Explanation
 - [ ] If Statements
 - [ ] Comics
+- [ ] Challenges in each module
 - [ ] + More Mini-Code Examples (Specifically when enumerating rules)
