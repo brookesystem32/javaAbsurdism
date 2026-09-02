@@ -9,4 +9,5 @@
 - [ ] Make the code examples runnable
 - [ ] OOP Explanation
 - [ ] If Statements
-- [ ] Every Page Has A Comic
+- [ ] Comics
+- [ ] + More Mini-Code Examples (Specifically when enumerating rules)
