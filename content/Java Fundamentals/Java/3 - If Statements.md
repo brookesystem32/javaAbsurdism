@@ -52,12 +52,12 @@ You can solve this issue as such:
    int[] siblingAges = {26, 21, 20, 19};
    
    	if(yearSinceCodeExecution > 0){
-		siblingAges[0]++ // a simple way to say x + 1
+		siblingAges[0]++; // a simple way to say x + 1
 	}
 	
   System.out.println("My age is " + siblingAges[0]); // 26
   
-  yearSinceCodeExecution++ // This is a simple way to say x + 1
+  yearSinceCodeExecution++; // This is a simple way to say x + 1
   
   System.out.println("My age after a year is " + siblingAges[0]); // 27
 ```
@@ -72,7 +72,7 @@ You can solve this issue as such:
 		siblingAges[0]--; // a simple way to say x - 1
 	}
   System.out.println("My age is " + siblingAges[0]); // 26
-  yearSinceCodeExecution-- // This is a simple way to say x - 1
+  yearSinceCodeExecution--; // This is a simple way to say x - 1
   System.out.println("My age after a year is " + siblingAges[0]); // 27
 ```
 
@@ -82,7 +82,7 @@ You can solve this issue as such:
    int[] siblingAges = {26, 21, 20, 19};
    	if(yearSinceCodeExecution > 0){
 		siblingAges[0]++;
-	} else if (yearSinceCodeExection == -90){ 
+	} else if (yearSinceCodeExecution == -90){ 
 		siblingAges[0] += 100; // simple way to say x + 100
 	} else {
 		siblingAges[0]--; // this will run if the years is LESS than zero and NOT equal to 60. Or in layman's terms: This is the fail-safe
@@ -93,6 +93,6 @@ You can solve this issue as such:
 ```
 **Wai-** I'll have to stop you right there, you're going to make this more complicated than it needs to be. *Understand the syntax and the table, and you can figure out the rest*.
 
-**No but seriously, there's a bug!** The code will *only always age by 1 year*, even if the *yearsSinceCodeExecution* variable is set to 900! 
+**No but seriously, there's a bug!** The code will *only always age by 1 year*, even if the *yearSinceCodeExecution* variable is set to 900! 
 
 The issue is that what we actually need is to make this code **iterate** and therefore needs to be **looped**. Alas, *Java cannot handle such a concept...* I suppose we're forever stuck with this broken piece of co-
