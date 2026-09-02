@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: javaAbsurdism
+  baseUrl: brookesystem32.github.io/javaAbsurdism
   ignorePatterns:
     - private
     - templates
