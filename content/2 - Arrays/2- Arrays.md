@@ -89,3 +89,5 @@ That's a question for m*uch later in the course ([[4 - Loops]])* but if you want
 	System.out.println(ages[3]);
 ```
 
+## Moving Forward: 
+[[3 - If Statements]]

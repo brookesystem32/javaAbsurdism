@@ -31,3 +31,6 @@ In Java, we have 3 basic loops:
 1. [[4.1 - While Loops]] - Keep running as long as the condition is true
 2. [[4.2 - Do-While Loops]] - Run once, then run like a while loop
 3. [[4.3 - For Loops and Why]] - A special while-loop variation
+
+## Moving Forward: 
+[[2 - Courses/Java2/4 - Loops/4.1 - While Loops|4.1 - While Loops]]

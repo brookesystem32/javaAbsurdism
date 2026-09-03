@@ -6,9 +6,9 @@ date: << [[2026-06-19]] | [[2026-06-21]] >>
 # Conditional Operators
 Before you get to code [[3.1 - If Statement & Variations]], you'll need to know how to actually **determine if something is true or false** (ie: a **condition**). 
 
-Fortunately for us, the **conditional operators** are actually rather self-explanatory! We really only have **3 special operators** and the **rest stem from Mathematics.**
+Fortunately for us, the **conditional operators** are actually rather self-explanatory! We really only have 🌟 **3 special operators** and the **rest stem from Mathematics.**
 
-| **Operator / Concept**    | **Syntax** | **Description**                                                                                                                 | **Example**                                                                        |
+| 🌟 **Operator / Concept** | **Syntax** | **Description**                                                                                                                 | **Example**                                                                        |
 | ------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
 | **Equal to**              | `==`       | Checks if two values are **equal**. **It's completely different from '='**                                                      | `if (x == 5)`<br>"is *x equal to 5?*"                                              |
 | **Not equal to**          | `!=`       | Checks if two values are **not equal.**                                                                                         | `if (x != 5)`<br>"is *x NOT equal to 5?*"                                          |
@@ -41,3 +41,5 @@ System.out.println(5 > 10 || 10 > 5);    // true — at least one condition is t
 
 System.out.println(!(5 > 10));           // true — 5 is not greater than 10, so NOT false becomes true
 ```
+
+## Moving Forward: 
