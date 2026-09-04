@@ -29,11 +29,11 @@ Lets get back to the code from before... but now everyone had a DNA test and tur
     
     System.out.println("My age is " + age);
     
-    System.out.println("My brother's age is " + secondBrotherAge);
+    System.out.println("My brother's age is " + secondDudeAge);
     
-    System.out.println("My third brother's age is " + thirdBrotherAge);
+    System.out.println("My third brother's age is " + thirdDudeAge);
     
-    System.out.println("My fourth brother's age is " + fourthBrotherAge);
+    System.out.println("My fourth brother's age is " + fourthDudeAge);
 ```
 This actually is pretty readable (and for some professionals, this is the recommended way to go about this),
 
@@ -43,13 +43,13 @@ but now if we want to change their values, **we would have to change each line a
     
     System.out.println("My age is " + ages[0]); // My age is 26
     
-    System.out.println("The 2nd person's age is " + ages[1]); // My 1st brother's age is 21
+    System.out.println("The 2nd person's age is " + ages[1]); // The 2nd person's age is 21
     
-    System.out.println("The 3rd person's age is " + ages[2]); // My 2nd brother's age is 20
+    System.out.println("The 3rd person's age is " + ages[2]); // The 3rd person's age is 20
     
-    System.out.println("The 4th person's age is " + ages[3]); // My 3rd brother's age is 20
+    System.out.println("The 4th person's age is " + ages[3]); // The 4th person's age is 19
     
-        System.out.println("The 5th person's age is  " + siblingAges[4]); // Throws an error since there's no 5th item of the ages array
+        System.out.println("The 5th person's age is  " + ages[4]); // Throws an error since there's no 5th item of the ages array
 ```
 
 Aha! and we even threw in an error into the code, double win! Now, how do we ðŸŒŸ **change the value of a single element of this array/collection?** It's actually the same as *modifying a variable*:
@@ -61,7 +61,7 @@ Aha! and we even threw in an error into the code, double win! Now, how do we ðŸŒ
     
     System.out.println("My age is now " + ages[0]); // My age is now 27
     
-    System.out.println("The 2nd person's age is still" + ages[1]); // My 1st brother's  age is 21
+    System.out.println("The 2nd person's age is still " + ages[1]); // The 2nd person's age is still 21
     
     ages[1] = 22;
     
@@ -76,7 +76,7 @@ Aha! and we even threw in an error into the code, double win! Now, how do we ðŸŒ
 We could also find out how many people there are by utilizing ***nameOfArray.length***
 ```java
     int[] ages = {26, 21, 20, 19};
-    System.out.println("There is " + ages.length + " people right now!);
+    System.out.println("There is " + ages.length + " people right now!");
 ```
 
 *But what if I want to print out the ages all at once?* 
@@ -90,4 +90,4 @@ That's a question for m*uch later in the course ([[4 - Loops]])* but if you want
 ```
 
 ## Moving Forward: 
-[[3 - If Statements]]
+[[3 - Condition(al Operators)|3 - If Statements & Conditions]]

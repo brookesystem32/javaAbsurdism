@@ -1,6 +1,6 @@
 
 # Functional / Procedural
-# Object-Oriented Programming (Lifted Straight From: [[6 - Basic Object Oriented Programming (Class & Objects)]])
+# Object-Oriented Programming (Lifted Straight From: [[6 - Classes & Objects]])
 
 
 # Error-Reading (Lifted Straight From: [[0.3 - Reading Errors (Optional)]])
@@ -13,7 +13,7 @@ From my previous experiences with teaching programming and debugging the problem
 In programming, we really only have 2 broad types of errors:🌟 **System & Logical**.
 
 ## 🌟 System Errors
-**System Errors** are a collection of various errors that **crashes the program.** It encapsulates stuff from *syntax errors and mispelled words* to *infinite recursion and memory leaks.* It's by far **the easiest amongst the 2 to solve, because the computer explicitly tells you what's wrong.**
+**System Errors** are a collection of various errors that **crashes the program.** It encapsulates stuff from *syntax errors and misspelled words* to *infinite recursion and memory leaks.* It's by far **the easiest amongst the 2 to solve, because the computer explicitly tells you what's wrong.**
 
 ```java
 Main.java:3: error: error: ';' expected
@@ -47,7 +47,7 @@ When we're working with (slightly) more complex code-bases, you'll see a variety
 ```java
 public class Main {
     public static void main(String[] args) {
-	    System.out.println("I will be subtracting 3 and 5);
+	    System.out.println("I will be subtracting 3 and 5");
         System.out.println(2 + 9); //Incredibly simplified logical error
     }
 }
@@ -59,7 +59,7 @@ Without being boring and using ChatGPT to solve this, we have a few different wa
 2.  **Flowcharts** - A **visual representation of your flow**, it's a bit too abstract and cumbersome in my experience, but if you're a visual learner then give this one a go.
 3. 🌟**Brute Force** - You essentially **force the solution** by **dumbing down your logic** to **solve an incredibly specific problem.** I *highly recommend this way of solving because it helps rebuild your logic from the bottom up.*
 4. 🌟**Duck** - It's **explaining to an object** (traditionally a rubber duck) about the program and its issues. It's a technique used to double-check your internal logic by explaining it in real-life. *Sounds absurd, but it does work.*
-5.  **Braindump** - Grab a notebook, and **write down everything that comes to mind** (even if it's not even about progamming.) This helps offload a ton of mental luggage and may even reveal a hidden Freudian solution. 
+5.  **Braindump** - Grab a notebook, and **write down everything that comes to mind** (even if it's not even about programming.) This helps offload a ton of mental luggage and may even reveal a hidden Freudian solution. 
 # General Tips 
 ## To Nest or Not To Nest ([[4.4b Mini - Nesting]])
 For the *most part* though, it's rather good practice to *avoid **Nesting***, especially if the logic is rather long:
@@ -100,14 +100,19 @@ boolean hasGuardian = false;
 boolean isVIP = false;
 
 if (age < 18 && !hasGuardian) {
-    System.out.println("You are under 18 and need a guardian.");
+    System.out.println("You need a guardian to enter.");
+} else if (age < 18 && !hasTicket) {
+    System.out.println("You still need a ticket.");
 } else if (!hasTicket) {
     System.out.println("You need a ticket.");
+} else if (age < 18) {
+    System.out.println("You may enter with your guardian.");
 } else if (isVIP) {
     System.out.println("Welcome, VIP!");
 } else {
     System.out.println("Welcome!");
 }
 ```
+*(🌟 Heads up: to keep this truly equivalent to the nested version above — same outputs for every combination of age/ticket/guardian/VIP — the flattened version actually needs all 6 of these branches. If you don't care about preserving every exact message, you could merge some of these together for something shorter, but then it stops being a 1-to-1 rewrite of the original logic.)*
 
 *Personally,* I believe that you shouldn

@@ -43,4 +43,4 @@ System.out.println(5 > 10 || 10 > 5);    // true — at least one condition is t
 System.out.println(!(5 > 10));           // true — 5 is not greater than 10, so NOT false becomes true
 ```
 
-## Moving Forward: 
+## Moving Forward: [[2 - Courses/Java2/3 - If Statements & Conditions/3.1 - If Statement & Variations|3.1 - If Statement & Variations]]

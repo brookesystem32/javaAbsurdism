@@ -1,4 +1,5 @@
-# Object Oriented Programming![[Untitled design (7).png]]
+# Object Oriented Programming
+![[Untitled design (7).png]]
 ## Syntax
 ```java
 // CLASS
@@ -12,7 +13,7 @@ className objectName = new className();
 
 So, at some point in this course, you might've asked yourself: *What is Object-Oriented Programming?* Well, since you stayed here for so long I might as well tell you!
 
-**Object-Oriented Programming** is (generally) the mindset that everything stems from *a blueprint/general idea (**Class)***  and from there we create *objects with specific details (**Object**)*. In philosophy, we call this a ***deductive** mindset.*
+🌟 **Object-Oriented Programming** is (generally) the mindset that everything stems from *a blueprint/general idea (**Class)***  and from there we create *objects with specific details (**Object**)*. In philosophy, we call this a ***deductive** mindset.*
 
 It's a little weird to understand so I like to think of it in this way:
 > Everyone has an idea of a person, we know that they **generally** have a *name, age, and nationality.* 
@@ -32,7 +33,7 @@ public class Name{
 }
 ```
 
-A **class** is often described as the **blueprint**, and that definition is totally fine, but it's better to think of it essentially as the **general idea / concept of something**.
+A **class** is often described as the **blueprint**, and that definition is totally fine, but it's better to think of it essentially as the 🌟 **general idea / concept of something**.
 ```java
 	public class Person{
 		String name;
@@ -45,10 +46,10 @@ A **class** is often described as the **blueprint**, and that definition is tota
 ```
 We all have a basic idea of a person; but when you look at everyone around you, you notice that everyone has different names, different ages, different races, etc. The one thing that unites everyone *conceptually* is that we all have the same general details (names, ages, races, etc)
 
-Generally, it's best practice to  have **each class be its own file**. We will be having to immediately break standard practices for the sake of *simplicity.* For now, **simply create your class outside of the public class Main() block**
+Generally, it's best practice to  have 🌟 **each class be its own file**. We will be having to immediately break standard practices for the sake of *simplicity.* For now, **simply create your class outside of the public class Main() block**
 
 ```java
-public class Person {
+class Person {
     int age;
     String name;
     String race;
@@ -65,7 +66,7 @@ public class Main {
 ```
 
 Now that we built out the basic idea of the person, lets go build one!
-# Objects / Instatiate
+# Objects / Instantiate
 ## Syntax
 ```java
 className objectName = new className();
@@ -85,7 +86,7 @@ public class Main {
 
 From there, we can assign them traits and make them act uniquely from each other. 
 ```java
-public class Person {
+class Person {
     int age;
     String name;
     String race;
@@ -116,11 +117,11 @@ public class Main {
 ```
 
 ## Modifiers
-Now, if you recall the lesson from [[2 - Courses/Java2/5 & 6 - Organizational Structures/5 Methods/5.3 - Access & Non-Access Modifiers|5.3 - Access & Non-Access Modifiers]], you'll know the concept of *modifiers* and those same modifiers apply too! Though again, just like in the lesson, you really must only *start* with like **3**: 
+Now, if you recall the lesson from [[5.3 - Access & Non-Access Modifiers]], you'll know the concept of *modifiers* and those same modifiers apply too! Though again, just like in the lesson, you really must only *start* with like **3**: 
 
-| Access Modifier    | Meaning                                                                                                                                                    | Example                       |
-| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
-| `public`           | Can be accessed from anywhere (most notably **outside of the file**)                                                                                       | `public void sayHello() { }`  |
-| `private`          | Can only be accessed within its own class (for now, it means that it can only be accessed only **within** the file)                                        | `private void sayHello() { }` |
-| ` `_(no modifier)_ | Literally nothing, it can only be access within the same package (think of it as it can be accessed by all other files within the same folder in your IDE) | `void sayHello() { }`         |
-## Moving Forward: [[2 - Courses/Java2/7 - Misc/7 - Programming Mindsets & Tips(Optional)|7 - Programming Mindsets & Tips(Optional)]]
+| Access Modifier    | Meaning                                                                                                                                                        | Example                       |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
+| `public`           | Can be accessed from anywhere (most notably **outside of the file**)                                                                                           | `public void sayHello() { }`  |
+| `private`          | Can only be accessed within its own class (for now, it means that it can only be accessed only **within** the file)                                            | `private void sayHello() { }` |
+| ` `_(no modifier)_ | Literally nothing, it can **only be access within the same package** (think of it as it can be accessed by all other files within the same folder in your IDE) | `void sayHello() { }`         |
+## Moving Forward: [[7 - Programming Mindsets & Tips(Optional)]]

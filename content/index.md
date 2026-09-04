@@ -8,20 +8,28 @@ date: << [[2026-06-19]] | [[2026-06-21]] >>
 
  **There'll soon be a video detailing everything tackled here** but that'll be like... much later hahaha! 
 
-In the majority of modern (and *esoteric*) programming languages, there lies **6 absolutely fundamental concepts** that one must completely understand before delving head first into developing their very own *twitter bot that steals crypto idea (in order of "when you should learn these):
+In the majority of modern (and *esoteric*) programming languages, there lies **6 absolutely fundamental concepts** that one must completely understand before delving head first into developing their very own *twitter-bot-that-steals-crypto* idea (in order of "when you should learn these"):
 1. [[1 - Variables...]]
 	1. [[1.1 - The Naming Laws of Variables]]
 	2. [[1.2 - and Data Types...]]
 	3. [[1.3 - and Math & Mismatches...]]
 2. [[2- Arrays]]
-3. [[2 - Courses/Java2/3 - If Statements & Conditions/3 - Condition(al Operators)|3 - Condition(al Operators)]]
-	1. [[2 - Courses/Java2/3 - If Statements & Conditions/3.1 - If Statement & Variations|3.1 - If Statement & Variations]]
+3. [[3 - Condition(al Operators)|3 - If Statements & Conditions]]
+	1. [[3.1 - If Statement & Variations]]
+	2. [[3.2b Mini - Variable Scope]]
 4. [[4 - Loops]]
 	1. [[4.1 - While Loops]]
 	2. [[4.2 - Do-While Loops]]
 	3. [[4.3 - For Loops and Why]]
+	4. [[4.4b Mini - Nesting]]
 5. [[5.0 - Methods (Functions)]]
-6. [[6 - Basic Object Oriented Programming]]
+	1. [[5.1 - Parameters & Arguments]]
+	2. [[5.2 Return Types]]
+	3. [[5.3 - Access & Non-Access Modifiers]]
+	4. [[5.4b Mini - Explaining the Main Method]]
+6. [[6 - Classes & Objects]]
+
+There's also a bonus module once you're done with everything above: [[7 - Programming Mindsets & Tips(Optional)]]
 
 There's also an additional course that total beginners can take called the [[0 - Pre Game]]:
 1. [[0.1 - Comments]]

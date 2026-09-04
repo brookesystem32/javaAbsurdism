@@ -29,7 +29,7 @@ Before you read this section, let me tell you this: **yes, it's literally like t
     
     System.out.println("My 4th twin's age is " + 25);
 ```
-*For those wondering by the way, the printing of ("My age is" + 27) is allowed through a process of **String Concatenation***
+*For those wondering by the way, the printing of ("My age is " + 25) is allowed through a process of **String Concatenation***
 
 If your intention is to simply just print out these 4 exact lines with no intention to change it ever in the future, then your work is complete. However, we do live in a world in which every year, we age by one. We *could* solve that issue 
 by manually changing each value like so:
@@ -59,7 +59,7 @@ by manually changing each value like so:
     System.out.println("My 4th twin's age is " + twinsAge); //26
 ```
 
-This approach makes it so that changing the age of these quadruplets would just be changing a single line, **and I think managing *1 line* is better than handling *4*.
+This approach makes it so that changing the age of these quadruplets would just be changing a single line, **and I think managing *1 line* is better than handling *4*.**
 
 🌟 Heck! you can **even change the value in the middle of the code**!
 
