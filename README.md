@@ -6,10 +6,10 @@
 
 - [ ] Fix ReadMe Format
 - [ ] Change Name(?)
-- [ ] Fix Layout in Website
-- [ ] Make the code examples runnable
-- [ ] OOP Explanation
+- [X] Fix Layout in Website
+- ~~[ ] Make the code examples runnable~~
+- [X] OOP Explanation
 - [x] If Statements
-- [ ] Comics
+- [X] Comics
 - [ ] Challenges in each module
 - [ ] + More Mini-Code Examples (Specifically when enumerating rules)
