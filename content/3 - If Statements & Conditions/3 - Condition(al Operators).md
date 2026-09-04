@@ -4,6 +4,7 @@ modification date: Saturday 20th June 2026 15:06:25
 date: << [[2026-06-19]] | [[2026-06-21]] >>
 ---
 # Conditional Operators
+![[Untitled design (1) 3.png]]
 Before you get to code [[3.1 - If Statement & Variations]], you'll need to know how to actually **determine if something is true or false** (ie: a **condition**). 
 
 Fortunately for us, the **conditional operators** are actually rather self-explanatory! We really only have 🌟 **3 special operators** and the **rest stem from Mathematics.**

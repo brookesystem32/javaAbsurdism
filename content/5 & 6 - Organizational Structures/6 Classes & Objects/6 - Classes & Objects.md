@@ -1,4 +1,4 @@
-# Object Oriented Programming
+# Object Oriented Programming![[Untitled design (7).png]]
 ## Syntax
 ```java
 // CLASS

@@ -1,6 +1,6 @@
 ## Loops
-![[Untitled design (4).png]]
-### Syntax
+
+### Syntax![[Untitled design (4) 1.png]]
 ```java
 // FOR LOOP
 for (initialization; condition; update) {
