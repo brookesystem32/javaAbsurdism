@@ -1,6 +1,7 @@
 # ICT Java: The Programming: The Guide: The Blog: The Website (WIP 
-> It's so under construction that the read-me isn't even finished! Forked from https://quartz.jzhao.xyz/
-
+> A website dedicated to teaching Java created by ICT students, for ICT students, in the ICT strand, within the ICT sphere, or like it's fine if you're not even within the ICT strand just a normal dude looking for a cool resource
+> https://brookesystem32.github.io/javaAbsurdism/
+> Forked from https://quartz.jzhao.xyz/
 
 ## 📋 TO:DO List
 
