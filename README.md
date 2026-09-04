@@ -1,11 +1,11 @@
-# The Absurdist's Guide to Java (WIP)
+# ICT Java: The Programming: The Guide: The Blog: The Website (WIP 
 > It's so under construction that the read-me isn't even finished! Forked from https://quartz.jzhao.xyz/
 
 
 ## 📋 TO:DO List
 
 - [ ] Fix ReadMe Format
-- [ ] Change Name(?)
+- [X] Change Name(?)
 - [X] Fix Layout in Website
 - ~~[ ] Make the code examples runnable~~
 - [X] OOP Explanation
