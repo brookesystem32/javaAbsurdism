@@ -13,9 +13,9 @@ dataType variableName = data;
 dataType variableName; // If declaring without data
 ```
 
-Before you read this section, let me tell you this: **yes, it's literally like the term in Math but it's able to hold different types of data *(and you have to be explicit of what type of data it holds)*.** If you already have a decent grasp of it, then feel free to skip to the [[1.1 - The Naming Laws of Variables]]; if not, then lets go to the absolutely mind-boggling definition!
+Before you read this section, let me tell you this: **yes, it's literally like the term in Math but it's able to hold different types of data *(and you have to be explicit of what type of data it holds)*.** If you already have a decent grasp of it, then feel free to skip to the [[2 - Courses/Java2/1 - Variables/1.1 - The Naming Laws of Variables]]; if not, then lets go to the absolutely mind-boggling definition!
 
-## A variable is just a container for a *single piece* of data (i.e: a box that holds a single item)
+## A variable is just a container for a *single piece* of data (i.e: a box that holds a single item or even more simply: *data with a nametag*) 
 *Yes, that's pretty much it...?* 
 
 🌟 ***Practically*** however, I like to think of variables through this mindset: ***What single piece of data that I would like to easily manage?*** Take this scenario for example:
@@ -78,6 +78,18 @@ This approach makes it so that changing the age of these quadruplets would just 
     System.out.println("My 4th twin's age is " + twinsAge); //29
 ```
 
+# Code Challenges:
+*Alright!* Let's set the scene...
+*In the middle of writing the setting of your TTRPG, you realized something... You want to change the date where this is all set to **1781**. So, you go back to your notes (which are written in code for some reason? why did you write your story in Java?) and realize that this is going to be a harrowing task. .*
+### Instruction: Find a way to make the dates easier to change using variables
+
+```java
+	System.out.println("It's the year " +  1781);
+	// Gosh... Now I got to change all of these years to 1781... How can I do that without having to manually change them all later if i change my mind AGAIN?
+	
+	System.out.println("In the year " +  1986 + " we saw the dragons fly for the first time...");
+		System.out.println("Gosh! That Siege of Yorktown was so insane, I remember it like it was still " + 1801 + "... Wait it's still " + 1302 "? Ha! My memory must be my old memory"  );
+```
 ## Going onwards:
-[[1.1 - The Naming Laws of Variables]]
+[[2 - Courses/Java2/1 - Variables/1.1 - The Naming Laws of Variables]]
 # References

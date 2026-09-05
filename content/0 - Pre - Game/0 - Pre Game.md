@@ -21,7 +21,7 @@ Hello! This module is entirely dedicated to the **absolute basics** of Java, by 
 In here we'll tackle the following concepts:
 1. [[0.1 - Comments]] (i.e: Notes & how to read the course)
 2. [[0.2 - The Anatomy of the Basic Java Program]] (i.e: what's this public class and static void non-sense!?)
-3. [[0.3 - Reading Errors (Optional)]] (i.e: Learning to not be overwhelmed by problems)
+3. [[0.3 - Reading Errors]] (i.e: Learning to not be overwhelmed by problems)
 
 You shouldn't expect to learn these concepts instantly, remember: *Programming is a skill, not an academic pursuit. **Apply what you learn as you go!*** 
 

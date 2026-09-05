@@ -17,7 +17,7 @@ Alright suppose that you're tired from earlier, don't worry! Arrays are actually
 
 🌟 An **Array** is just a **fixed sized collection of simple data values with the same data type** (ie: a collection of [[1 - Variables...]] of the same type), think of it as the shelf of an incredibly organized person, indexes and all (but for some reason, 🌟 **the guy marked the first item as *0*, then the second item as *1*, and so forth.)**
 
-*🌟 Since it's fundamentally a collection of [[1 - Variables...]], then it's a given that it has the same [[1.2 - and Data Types...]]!*
+*🌟 Since it's fundamentally a collection of [[1 - Variables...]], then it's a given that it has the same [[2 - Courses/Java2/1 - Variables/1.2 - and Data Types...]]!*
 
 Lets get back to the code from before... but now everyone had a DNA test and turns out everyone was just some guy and their ages were totally off... Oopsies!
 ```java

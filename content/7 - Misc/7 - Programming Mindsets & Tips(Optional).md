@@ -3,7 +3,7 @@
 # Object-Oriented Programming (Lifted Straight From: [[6 - Classes & Objects]])
 
 
-# Error-Reading (Lifted Straight From: [[0.3 - Reading Errors (Optional)]])
+# Error-Reading (Lifted Straight From: [[0.3 - Reading Errors]])
 *Alright! You got a firm grasp of what's going on in Java (Don't worry if you haven't yet though, the last 2 will make more sense as we progress).* **Now it's time to learn what to do when things go horrifically wrong.**
 
 From my previous experiences with teaching programming and debugging the problems of my beginner colleagues, I notice one thing: 🌟 **Most problems could just be solved by learning how to read the errors.** *Once you get the hang of learning how to interpret your errors, then you're essentially going to 10x your understanding of your own projects!*

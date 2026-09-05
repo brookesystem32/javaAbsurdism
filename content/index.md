@@ -8,11 +8,11 @@ date: << [[2026-06-19]] | [[2026-06-21]] >>
 
  **There'll soon be a video detailing everything tackled here** but that'll be like... much later hahaha! 
 
-In the majority of modern (and *esoteric*) programming languages, there lies **6 absolutely fundamental concepts** that one must completely understand before delving head first into developing their very own *twitter-bot-that-steals-crypto* idea (in order of "when you should learn these"):
+In the majority of modern (and *esoteric*) programming languages, there lies **6 absolutely fundamental concepts** that one must understand:
 1. [[1 - Variables...]]
-	1. [[1.1 - The Naming Laws of Variables]]
-	2. [[1.2 - and Data Types...]]
-	3. [[1.3 - and Math & Mismatches...]]
+	1. [[2 - Courses/Java2/1 - Variables/1.1 - The Naming Laws of Variables]]
+	2. [[2 - Courses/Java2/1 - Variables/1.2 - and Data Types...]]
+	3. [[2 - Courses/Java2/1 - Variables/1.3 - and Math & Mismatches...]]
 2. [[2- Arrays]]
 3. [[3 - Condition(al Operators)|3 - If Statements & Conditions]]
 	1. [[3.1 - If Statement & Variations]]
@@ -28,13 +28,15 @@ In the majority of modern (and *esoteric*) programming languages, there lies **6
 	3. [[5.3 - Access & Non-Access Modifiers]]
 	4. [[5.4b Mini - Explaining the Main Method]]
 6. [[6 - Classes & Objects]]
+*In order to properly understand the concepts, we'll be making our very own TTRPG throughout the course!*
 
 There's also a bonus module once you're done with everything above: [[7 - Programming Mindsets & Tips(Optional)]]
 
 There's also an additional course that total beginners can take called the [[0 - Pre Game]]:
 1. [[0.1 - Comments]]
 2. [[0.2 - The Anatomy of the Basic Java Program]]
-3. [[0.3 - Reading Errors (Optional)]]
+3. [[0.3 - Reading Errors]]
+
 
 This article, a primarily Java-driven one, will really only focus on the concepts themselves and less about how you would use them practically (that's for your project / teacher / homework to decide). If you do want some nice resources that are actually good... then try out freeCodeCamp.org! **Think of this as like, a guy's weird way of understanding programming after roughly 7 years of hopping around different languages** 
 
