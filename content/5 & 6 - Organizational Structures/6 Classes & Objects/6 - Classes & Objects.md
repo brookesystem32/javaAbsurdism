@@ -116,6 +116,16 @@ public class Main {
 }
 ```
 
+You might ask: Why do we need `new`?
+
+Simply put, `new` tells Java: **"Hey, CREATE this person!!"**
+
+Writing `Person brooke;` only creates a name tag *(or reference)*. It doesn't create an actual person yet. 
+
+When you write `new Person()`, Java actually creates that person for you. Because we called `new` twice, once for `brooke` and once for `martin`, we get two completely separate people. 
+
+Even though they share the same `Person` blueprint, whatever values you give to `brooke` won't affect `martin`, and vice versa.
+
 ## Modifiers
 Now, if you recall the lesson from [[5.3 - Access & Non-Access Modifiers]], you'll know the concept of *modifiers* and those same modifiers apply too! Though again, just like in the lesson, you really must only *start* with like **3**: 
 
